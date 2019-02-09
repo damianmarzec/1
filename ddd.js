@@ -4,11 +4,9 @@ function wypisz() {
     var napis = " ";
 
     for (i = liczba1; i <= liczba2; i++) {
-        console.log(i);
         napis = napis + i + " ";
     }
     for (i = liczba1; i >= liczba2; i--) {
-        console.log(i);
         napis = napis + i + " ";
     }
     document.getElementById("wynik2").innerHTML = napis;
